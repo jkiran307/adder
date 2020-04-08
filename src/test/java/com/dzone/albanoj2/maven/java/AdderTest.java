@@ -11,7 +11,7 @@ public class AdderTest {
     }
     @Test
     public void whenAddTwoZeros_ThenSumIsZero() {
-        assertEquals(0, adder.add(0, 0));
+        assertEquals(5, adder.add(0, 0));
     }
     @Test
     public void whenAddFirstZeroSecondNegative_ThenSumIsEqualToSecond() {
